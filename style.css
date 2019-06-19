@@ -1,0 +1,68 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    border: 1px solid #808080a3;
+    background-color: #ffffff8a;
+    display: inline-block;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 0px #0000003b;
+    width: 500px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-top: 1em;
+    margin-bottom: 5px;
+}
+
+input {
+    display: block;
+    width: 96%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #00000047;
+    color: #0202027a;
+    font-size: 1.1em;
+}
+
+input :focus {
+    background-color: #f2eff3f2;
+}
+
+button {
+    background-color: #3a1c71d4;
+    color: beige;
+    padding: 1em 3em;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.1em;
+    margin-top: 2em;
+}
+
+.button :hover {
+    background-color: #e48b91;
+    cursor: pointer;
+}
+
+a {
+    cursor: pointer;
+    color: #673ab7e0;
+    margin-left: 2em;
+}
+
+.button {
+    text-align: left;
+}

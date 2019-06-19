@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 3em;
+    background-image: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
+}
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    box-shadow: 1px 1px 2px 0px #0000003b;
+}
+
+

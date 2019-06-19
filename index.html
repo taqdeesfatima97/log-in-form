@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Login form </title>
+        <link rel="stylesheet" href="style.css">
+        <link
+            href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <form action="logged-in.html">
+            <div>
+                <label for="nameInp" >Full Name </label>
+                <input id="nameInp" type="text" required />
+            </div>
+            <div>
+                <label for="ageInp" >Age</label>
+                <input id="ageInp" type="number" min="17" max="80" required/>
+            </div>
+            <div>
+                <label for="emailInp">Email Address</label>
+                <input id="emailInp" type="email" required />
+            </div>
+            <div>
+                <label for="passInp" >Password</label>
+                <input id="passInp" type="password" required/>
+            </div>
+            <div class="button">
+                <button>Log In</button>
+                <a href="#">Forgot Your Password?</a>
+            </div>
+        </form>
+    </body>
+</html>
